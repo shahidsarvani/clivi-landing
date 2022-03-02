@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'chaneyultra_extended';
+  src: url("../fonts/chaney-ultraextended-webfont.eot");
+  src: url("../fonts/chaney-ultraextended-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chaney-ultraextended-webfont.woff2") format("woff2"), url("../fonts/chaney-ultraextended-webfont.woff") format("woff"), url("../fonts/chaney-ultraextended-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  background-color: #161B30;
+  height: 100px;
+  width: 100%;
+}
+
+.header__logo {
+  width: 133px;
+}
+
+.btn__wrap {
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 2px solid #2F3656;
+  background-color: #1D233D;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+.btn__wrap:hover {
+  color: #FFF;
+  opacity: 0.7;
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 180px;
+  }
+}
+
+footer {
+  background-color: #161B30;
+  height: 162px;
+}
+
+.footer__logo img {
+  width: 132px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer__logo {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer__social__icons {
+  gap: 25px;
+}
+
+.footer__social__icons a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__contact__wrap a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+.footer__contact__wrap a:hover {
+  opacity: 0.7;
+}
