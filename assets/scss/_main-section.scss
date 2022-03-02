@@ -1,79 +1,133 @@
 .main_section {
-    min-height: 70vh;
-    background-image: url("../images/bg_section.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-
+  min-height: 70vh;
+  background-image: url("../images/bg_section.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .content_main_inner h3 {
-    font-size: 35px;
-    color: #32CDE8;
-    font-family: CeraProMed;
+  font-size: 35px;
+  color: #32cde8;
+  font-family: CeraProMed;
 }
 .content_main_inner p {
-    font-family: chaneyultra_extended;
-    font-size: 35px;
-    color: #FFF;
+  font-family: chaneyultra_extended;
+  font-size: 35px;
+  color: #fff;
 }
-
 
 .invite_wrap h3 {
-    font-family: chaneyultra_extended;
-    font-size: 16px;
-    color: #FFF;
+  font-family: chaneyultra_extended;
+  font-size: 16px;
+  color: #fff;
 }
 .invite_wrap h3 span {
-    color: #32CDE8;
+  color: #32cde8;
 }
-.invite_wrap, .days_wrap {
-    background-color: rgba(92, 92, 92, 0.2);
-    border: 2px solid rgba(255, 255, 255, 0.4);
-    border-radius: 8px;
+
+.invite_wrap p.text-light {
+  font-size: 14px;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: "CeraProMed";
+}
+
+.copy_field {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+}
+
+button.btn.btn_form_copy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #9f60f4;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 0;
+  padding: 4px 12px 5px 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "CeraProMed";
+  transition: 250ms all ease-in;
+}
+
+button.btn.btn_form_copy:hover {
+  opacity: 0.7;
+}
+
+.copy_field::placeholder {
+  color: #000;
+  font-family: "CeraProMed";
+}
+
+.social__icon {
+  margin-top: 15px;
+  gap: 20px;
+  img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  a {
+    background-color: #000;
+    padding: 5px;
+  }
+}
+
+.invite_wrap,
+.days_wrap {
+  background-color: rgba(92, 92, 92, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
 }
 .input_wrapper .input_single {
-    padding: 12px 16px;
-    color: #161B30;
-    border: 0;
-    border-radius: 4px;
-    height: 43px;
+  padding: 12px 16px;
+  color: #161b30;
+  border: 0;
+  border-radius: 4px;
+  height: 43px;
 }
 .input_wrapper .input_single::placeholder {
-    color: #161B30;
+  color: #161b30;
 }
 .btn_form {
-    background-color: #9F60F4;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    height: 70px;
-    transition: 250ms all ease-in;
+  background-color: #9f60f4;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  height: 70px;
+  transition: 250ms all ease-in;
 }
 .btn_form:hover {
-    color: #FFF;
-    opacity: 0.8;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .days_inner .day_single {
-    display: flex;
-    flex-direction: column;
-} 
+  display: flex;
+  flex-direction: column;
+}
 .day_single h3 {
-    font-size: 32px;
-    color: rgba(50, 205, 232, 1);
+  font-size: 32px;
+  color: rgba(50, 205, 232, 1);
 }
 .day_single span {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    font-family: CeraProMed;
-} 
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-family: CeraProMed;
+}
 .day_single {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .days_inner {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
