@@ -110,6 +110,11 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: CeraProMed;
+  src: url("../fonts/cera-pro-medium.otf") format("opentype");
+}
+
 .header {
   background-color: #161B30;
   height: 100px;
@@ -187,4 +192,123 @@ footer {
 
 .footer__contact__wrap a:hover {
   opacity: 0.7;
+}
+
+.main_section {
+  min-height: 70vh;
+  background-image: url("../images/bg_section.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.content_main_inner h3 {
+  font-size: 35px;
+  color: #32CDE8;
+  font-family: CeraProMed;
+}
+
+.content_main_inner p {
+  font-family: chaneyultra_extended;
+  font-size: 35px;
+  color: #FFF;
+}
+
+.invite_wrap h3 {
+  font-family: chaneyultra_extended;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.invite_wrap h3 span {
+  color: #32CDE8;
+}
+
+.invite_wrap, .days_wrap {
+  background-color: rgba(92, 92, 92, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+}
+
+.input_wrapper .input_single {
+  padding: 12px 16px;
+  color: #161B30;
+  border: 0;
+  border-radius: 4px;
+  height: 43px;
+}
+
+.input_wrapper .input_single::-webkit-input-placeholder {
+  color: #161B30;
+}
+
+.input_wrapper .input_single:-ms-input-placeholder {
+  color: #161B30;
+}
+
+.input_wrapper .input_single::-ms-input-placeholder {
+  color: #161B30;
+}
+
+.input_wrapper .input_single::placeholder {
+  color: #161B30;
+}
+
+.btn_form {
+  background-color: #9F60F4;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  height: 70px;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+.btn_form:hover {
+  color: #FFF;
+  opacity: 0.8;
+}
+
+.days_inner .day_single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.day_single h3 {
+  font-size: 32px;
+  color: #32cde8;
+}
+
+.day_single span {
+  font-size: 16px;
+  color: white;
+  font-family: CeraProMed;
+}
+
+.day_single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.days_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

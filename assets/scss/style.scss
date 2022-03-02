@@ -18,6 +18,11 @@ body {
     font-style: normal;
 
 }
+@font-face {
+    font-family: CeraProMed;
+    src: url("../fonts/cera-pro-medium.otf") format("opentype");
+}
 
 @import '_header';
 @import '_footer';
+@import '_main-section';
