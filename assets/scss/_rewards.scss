@@ -35,6 +35,16 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .reward__card {
+    margin-bottom: 15px;
+  }
+
+  .title_rewards {
+    width: 95% !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .reward__card {
     margin-bottom: 15px;
