@@ -272,6 +272,57 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.content_single h3 {
+  font-family: CeraProMed;
+  font-size: 24px;
+  color: #FFF;
+}
+
+.content_single {
+  position: relative;
+}
+
+.content_single::before {
+  content: "";
+  height: 100%;
+  width: 6px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(225deg, #F906FE 0%, #32CDE8 100%);
+}
+
+.featured_gamers h3 {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.featured_inner {
+  background-color: #161B30;
+  border-radius: 10px;
+}
+
+.gamer_single img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.gamer_single h3 {
+  color: #32CDE8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.gamer_single span {
+  font-family: CeraProMed;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFF;
+}
+
 .rewards__sec {
   background-color: #0d1221;
 }
