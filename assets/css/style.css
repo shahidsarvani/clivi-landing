@@ -99,11 +99,11 @@ input, select {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
-  font-family: 'chaneyultra_extended';
+  font-family: "chaneyultra_extended";
   src: url("../fonts/chaney-ultraextended-webfont.eot");
   src: url("../fonts/chaney-ultraextended-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chaney-ultraextended-webfont.woff2") format("woff2"), url("../fonts/chaney-ultraextended-webfont.woff") format("woff"), url("../fonts/chaney-ultraextended-webfont.ttf") format("truetype");
   font-weight: normal;
@@ -148,6 +148,56 @@ body {
   }
 }
 
+.rewards__sec {
+  background-color: #0d1221;
+}
+
+.rewards__sec .title_rewards {
+  border-bottom: 1px solid #2f3656;
+  padding-bottom: 10px;
+  width: 60%;
+}
+
+.rewards__sec .txt-reward {
+  font-size: 35px;
+}
+
+.rewards__sec h2.txt-neon {
+  color: #32cde8;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.rewards__sec .description h4.text-light {
+  font-size: 30px;
+}
+
+.rewards__sec .reward__card {
+  background: #161b30;
+  min-height: 310px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.rewards__sec .reward__card .text__neon {
+  color: #32cde8;
+  line-height: 25px;
+}
+
 footer {
   background-color: #161B30;
   height: 162px;
@@ -188,3 +238,4 @@ footer {
 .footer__contact__wrap a:hover {
   opacity: 0.7;
 }
+/*# sourceMappingURL=style.css.map */
