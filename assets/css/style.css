@@ -386,6 +386,12 @@ input.copy_field::placeholder {
   .invite_wrap {
     margin-bottom: 10px;
   }
+  .content_main_inner h3 {
+    font-size: 25px;
+  }
+  .content_main_inner p {
+    font-size: 25px;
+  }
 }
 
 .rewards__sec {
