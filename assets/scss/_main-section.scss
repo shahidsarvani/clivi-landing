@@ -170,6 +170,10 @@ input.copy_field::placeholder {
   color: #fff;
 }
 
+.gamer_single {
+  width: 20%;
+}
+
 @media only screen and (max-width: 1024px) {
   .days_inner {
     padding: 0 1rem !important;
@@ -177,6 +181,10 @@ input.copy_field::placeholder {
 
   .content_single h3 {
     font-size: 18px;
+  }
+
+  .gamer_single {
+    width: 33%;
   }
 }
 
@@ -195,5 +203,8 @@ input.copy_field::placeholder {
 
   .content_main_inner p {
     font-size: 25px;
+  }
+  .gamer_single {
+    width: 50%;
   }
 }
