@@ -157,3 +157,13 @@ input.copy_field::placeholder {
   font-weight: 500;
   color: #fff;
 }
+
+@media only screen and (max-width: 767px) {
+  .days_wrap {
+    margin-bottom: 10px;
+  }
+
+  .invite_wrap {
+    margin-bottom: 10px;
+  }
+}
