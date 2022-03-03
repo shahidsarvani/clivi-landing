@@ -38,6 +38,11 @@ input.copy_field {
   background-color: #000;
 }
 
+input.copy_field::placeholder {
+  color: #000;
+  font-family: CeraProMed;
+}
+
 .content_main_inner h3 {
   font-size: 35px;
   color: #32cde8;
