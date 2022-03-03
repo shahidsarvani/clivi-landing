@@ -170,6 +170,16 @@ input.copy_field::placeholder {
   color: #fff;
 }
 
+@media only screen and (max-width: 1024px) {
+  .days_inner {
+    padding: 0 1rem !important;
+  }
+
+  .content_single h3 {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .days_wrap {
     margin-bottom: 10px;
