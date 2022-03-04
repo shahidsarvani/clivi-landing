@@ -19,7 +19,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header d-none d-md-block">
         <div class="container h-100">
             <div class="header__wrapper d-flex align-items-center justify-content-between flex-column flex-lg-row">
                 <div class="header__wrapper__inner d-flex align-items-center">
@@ -47,6 +47,42 @@
                         <a class="btn btn__wrap" href="#">
                             <span>Sign Up</span>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header d-block d-md-none py-4">
+        <div class="container h-100">
+            <div class="row gy-4">
+                <div class="col-12">
+                    <div class="header__logo h-100 p-0 m-0 justify-content-center d-flex">
+                        <a href="#">
+                            <img class="d-flex" src="./assets/images/logo.svg" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="header__btn__wrap d-flex justify-content-center">
+                        <a class="btn btn__wrap w-50 me-3" href="#">
+                            <img class="me-2" src="./assets/images/apple.svg" />
+                            <span>App store</span>
+                        </a>
+                        <a class="btn btn__wrap w-50" href="#">
+                            <img class="me-2" src="./assets/images/google.svg" />
+                            <span>Google play</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                        <div class="header__btn__wrap d-flex justify-content-center">
+                            <a class="btn btn__wrap w-50 me-3" href="#">
+                                <span>Login</span>
+                            </a>
+                            <a class="btn btn__wrap w-50" href="#">
+                                <span>Sign Up</span>
+                            </a>
                     </div>
                 </div>
             </div>
@@ -110,7 +146,7 @@
                 <div class="col-12 col-md-5 ms-auto d-flex align-items-center">
 
                     <div class="days_wrap p-4 w-100">
-                        <div class="days_inner px-5 pb-3">
+                        <div class="days_inner px-2 px-md-5 pb-3">
                             <div class="day_single">
                                 <h3>100</h3>
                                 <span>Days</span>
@@ -195,7 +231,7 @@
 
 
 
-    <footer>
+    <footer class="d-none d-md-block">
         <div class="container h-100">
             <div class="row footer__wrapper h-100 d-flex align-items-center justify-content-between">
                 <div class="col-4 footer__inner h-100 d-flex text-center">
@@ -231,6 +267,51 @@
                         Contact
                     </a>
                 </div>
+
+            </div>
+        </div>
+    </footer>
+    <footer class="d-block d-md-none">
+        <div class="container h-100">
+            <div class="row gy-4 footer__wrapper h-100 d-flex align-items-center justify-content-between">
+                <div class="col-6 footer__inner h-100 d-flex text-center">
+                    <div class="footer__logo d-flex flex-column align-items-center justify-content-center">
+                        <img src="./assets/images/logo.svg" />
+                    </div>
+                </div>
+                <div class="col-6 footer__contact__wrap d-flex justify-content-end">
+                    <a href="#">
+                        Contact
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div class="footer__logo text-center">
+                        <span>UGOAT © 2021. All rights reserved.</span>
+                    </div>
+                </div>
+                <div class="col-12 pb-4 footer__social__icons d-flex justify-content-center flex-wrap">
+                    <a href="#">
+                        <img src="./assets/images/footer.svg" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/footer2.svg" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/footer3.svg" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/Instagram.svg" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/Twitter.svg" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/YouTube.svg" />
+                    </a>
+
+                </div>
+
+               
 
             </div>
         </div>

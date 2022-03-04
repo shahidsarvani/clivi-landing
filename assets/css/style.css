@@ -147,15 +147,12 @@ body {
   opacity: 0.7;
 }
 
-@media (max-width: 1024px) {
-  .header {
-    height: 180px;
-  }
-}
-
 @media (max-width: 767px) {
   .header {
-    height: 180px;
+    height: 100%;
+  }
+  .header__logo {
+    width: 100%;
   }
 }
 
@@ -402,9 +399,6 @@ input.copy_field::placeholder {
 }
 
 @media only screen and (max-width: 1024px) {
-  .days_inner {
-    padding: 0 1rem !important;
-  }
   .content_single h3 {
     font-size: 18px;
   }
@@ -414,6 +408,9 @@ input.copy_field::placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+  .content_single h3 {
+    font-size: 18px;
+  }
   .days_wrap {
     margin-bottom: 10px;
   }
@@ -513,7 +510,6 @@ input.copy_field::placeholder {
 
 footer {
   background-color: #161B30;
-  height: 162px;
 }
 
 .footer__logo img {
@@ -551,4 +547,3 @@ footer {
 .footer__contact__wrap a:hover {
   opacity: 0.7;
 }
-/*# sourceMappingURL=style.css.map */
