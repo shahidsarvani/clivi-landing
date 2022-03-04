@@ -116,7 +116,7 @@ body {
 }
 
 .header {
-  background-color: #161B30;
+  background-color: #161b30;
   height: 100px;
   width: 100%;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 .btn__wrap {
-  color: #FFF;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,15 +136,21 @@ body {
   font-size: 16px;
   font-weight: bold;
   text-transform: capitalize;
-  border: 2px solid #2F3656;
-  background-color: #1D233D;
+  border: 2px solid #2f3656;
+  background-color: #1d233d;
   -webkit-transition: 250ms all ease-in;
   transition: 250ms all ease-in;
 }
 
 .btn__wrap:hover {
-  color: #FFF;
+  color: #fff;
   opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    height: 180px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -391,6 +397,22 @@ input.copy_field::placeholder {
   color: #fff;
 }
 
+.gamer_single {
+  width: 20%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .days_inner {
+    padding: 0 1rem !important;
+  }
+  .content_single h3 {
+    font-size: 18px;
+  }
+  .gamer_single {
+    width: 33%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .days_wrap {
     margin-bottom: 10px;
@@ -403,6 +425,9 @@ input.copy_field::placeholder {
   }
   .content_main_inner p {
     font-size: 25px;
+  }
+  .gamer_single {
+    width: 50%;
   }
 }
 
