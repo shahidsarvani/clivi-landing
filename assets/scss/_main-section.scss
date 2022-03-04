@@ -171,6 +171,9 @@ input.copy_field::placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+  .content_single h3 {
+    font-size: 18px;
+  }
   .days_wrap {
     margin-bottom: 10px;
   }
