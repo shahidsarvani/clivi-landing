@@ -98,6 +98,10 @@ input, select {
   vertical-align: middle;
 }
 
+body, html {
+  min-height: 100vh;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -160,6 +164,13 @@ body {
   background-image: url("../images/bg_section.png");
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 input.copy_field {

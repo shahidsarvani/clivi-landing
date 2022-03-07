@@ -4,6 +4,9 @@
 }
 @import "_reset";
 
+body, html {
+  min-height: 100vh;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
