@@ -559,3 +559,24 @@ footer {
 .footer__contact__wrap a:hover {
   opacity: 0.7;
 }
+
+@media (min-height: 800px) and (min-width: 1580px) {
+  .header {
+    height: 12vh;
+  }
+  .main_section {
+    min-height: 70vh;
+  }
+  footer {
+    min-height: 18vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__wrapper {
+    height: 100%;
+  }
+}
